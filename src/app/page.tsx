@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { ProductCatalog } from "@/components/product-catalog";
 import { WhatsAppButton } from "@/components/whatsapp-button";
 import { Separator } from "@/components/ui/separator";
@@ -33,7 +34,7 @@ export default function Home() {
               <span className="text-primary">esporte</span>
             </h2>
             <p className="text-muted-foreground mt-3 max-w-md mx-auto text-sm sm:text-base">
-              Roupas esportivas de qualidade com precos que cabem no bolso.
+              Roupas esportivas de qualidade com preços que cabem no bolso.
               Entrega pra todo o Brasil.
             </p>
           </div>
@@ -48,7 +49,9 @@ export default function Home() {
               Toque em &quot;Comprar&quot; pra falar direto no WhatsApp
             </span>
           </div>
-          <ProductCatalog />
+          <Suspense>
+            <ProductCatalog />
+          </Suspense>
         </section>
       </main>
 

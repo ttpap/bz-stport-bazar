@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "BZ Sports - Bazar de Roupas Esportivas",
   description:
-    "Roupas esportivas de qualidade com os melhores precos. Camisetas, shorts, conjuntos de treino e muito mais.",
+    "Roupas esportivas de qualidade com os melhores preços. Camisetas, shorts, conjuntos de treino e muito mais.",
 };
 
 export default function RootLayout({
