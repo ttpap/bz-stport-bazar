@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# original source files
+/bazarsurfpointmtbbuzios/
+/rebazarsurfpointmtbbuzios/
+bazarsurfpointmtbbuzios.zip
+*.xlsx
+/bz sportes.png
