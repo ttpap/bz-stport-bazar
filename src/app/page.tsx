@@ -8,15 +8,7 @@ export default function Home() {
       <header className="border-b border-border/50 bg-card/50 backdrop-blur-sm sticky top-0 z-40">
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img src="/logo.png" alt="BZ Sports" className="h-10 w-auto" />
-            <div>
-              <h1 className="font-bold text-lg leading-none tracking-tight">
-                BZ Sports
-              </h1>
-              <p className="text-xs text-muted-foreground">
-                Bazar Esportivo
-              </p>
-            </div>
+            <img src="/logo.jpg" alt="BZ Sports" className="h-10 w-auto rounded" />
           </div>
 
           <a
@@ -74,7 +66,7 @@ export default function Home() {
       <footer className="border-t border-border/50 py-8 mt-8">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <div className="flex items-center justify-center gap-2 mb-3">
-            <img src="/logo.png" alt="BZ Sports" className="h-8 w-auto" />
+            <img src="/logo.jpg" alt="BZ Sports" className="h-8 w-auto rounded" />
             <span className="font-bold">BZ Sports</span>
           </div>
           <p className="text-xs text-muted-foreground">

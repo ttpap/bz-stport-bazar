@@ -219,4 +219,47 @@ export const products: Product[] = [
     stock: 1,
     badge: "Ultimo",
   },
+
+  // === SURF ===
+  {
+    id: "quilhas-surf",
+    name: "Kit Quilhas Surf",
+    description: "Jogo de quilhas para prancha de surf. Material resistente e leve.",
+    price: 0,
+    category: "Surf",
+    image: "/products/quilha-surf.jpeg",
+  },
+  {
+    id: "raspador-silverbay-verde",
+    name: "Raspador de Parafina Silverbay Verde",
+    description: "Raspador de parafina Silverbay 100% reciclado. Modelo ergonomico com pente.",
+    price: 0,
+    category: "Surf",
+    image: "/products/raspador-silverbay-verde.jpeg",
+  },
+  {
+    id: "raspador-silverbay-preto",
+    name: "Raspador de Parafina Silverbay Preto",
+    description: "Raspador de parafina Silverbay compacto. Design classico com logo.",
+    price: 0,
+    category: "Surf",
+    image: "/products/raspador-silverbay-preto.jpeg",
+  },
+  {
+    id: "pranchas-surf",
+    name: "Pranchas de Surf e Bodyboard",
+    description: "Prancha de surf e bodyboard disponiveis na loja. Consulte modelos e tamanhos.",
+    price: 0,
+    category: "Surf",
+    image: "/products/pranchas-surf.jpeg",
+    badge: "Destaque",
+  },
+  {
+    id: "wetsuit-truzz",
+    name: "Wetsuit Truzz Full",
+    description: "Roupa de neoprene Truzz manga longa completa. Ideal pra aguas frias.",
+    price: 0,
+    category: "Surf",
+    image: "/products/wetsuit-truzz.jpeg",
+  },
 ];
